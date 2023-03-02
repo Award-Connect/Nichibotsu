@@ -1,0 +1,39 @@
+.pulsar::before, .pulsar::after
+    {
+        content:'';
+        display: block;
+        position: absolute;
+        left: -20px;
+        right: -20px;
+        top:-20px;
+        bottom: -20px;
+        border-radius: 50%;
+        border: 2px solid #2a8435;
+        animation: animar 1.5s linear infinite;
+        opacity: 0;
+
+    }
+
+    .pulsar::after
+    {
+        animation-delay: .5s;
+    }
+
+    @keyframes animar
+    {
+        0%
+        {
+            transform: scale(0.5);
+            opacity: 0;
+        }
+
+        50%
+        {
+            opacity: 1;
+        }
+
+        100%
+        {
+            opacity: 0;
+        }
+    }
