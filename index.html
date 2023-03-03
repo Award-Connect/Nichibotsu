@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Header</title>
+</head>
+<body>
+
+    <a id="link-top" href="#" ><img src="./acima.png"></a>
+
+        <!--INICIO DO HEADER-->
+
+    <div class="header" id="header">
+
+        
+
+        <button onclick="toggleSidebar()" class="btn_icon_header">
+           
+            <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16" >
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+
+        </button>
+
+    <div class="logo">
+
+        <img src="Nichi_black_txt.png">
+
+    </div> 
+       
+    <div class="navigation_header" id="navigation_header"> 
+            
+            <button onclick="toggleSidebar()" class="btn_icon_header">
+                <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                  </svg>
+             </button>
+
+             <nav class="navbar">
+                <ul>
+                    <li><a href="#">Cardapio +</a>
+                    <ul>
+                        <li><a href="#TEMAKIS">Temakis</a></li>
+                        <li><a href="#SUSHIS">Sushis</a></li>
+                        <li><a href="#LAMENS">Lamens</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+             </nav>
+
+        </div>
+        </div>
+
+<!--FIM DO HEADER-->
+
+<!--INICIO DOS SLIDES-->
+<br><br>       
+<div tabindex="0" onclick="closeSidebar()" >
+
+            <h1></h1>
+            
+            <div class="body2"> 
+                <div class="slider">
+        
+          <div class="slides">
+              <!--Radio Buttons-->
+              <input type="radio" name="radio-btn" id="radio1">
+              <input type="radio" name="radio-btn" id="radio2">
+              <input type="radio" name="radio-btn" id="radio3">
+              <input type="radio" name="radio-btn" id="radio4">
+              <!--FIM BOTÕES-->
+      
+              <!--Slide imagens-->
+              
+              <div class="slide first">
+                  <img src="Deliviry.png">
+              </div>
+              
+              <div class="slide">
+                <img src="SUSHI.png">
+              </div>
+              
+              <div class="slide">
+                  <img src="SUSHI1.png">
+              </div>
+              
+              <div class="slide">
+                  <img src="Banner1.png">
+              </div>
+              <!--Fim Slides imagens-->
+      
+              <!--Navigation auto-->
+              <div class="navigation-auto">
+                  <div class="auto-btn1"></div>
+                  <div class="auto-btn2"></div>
+                  <div class="auto-btn3"></div>
+                  <div class="auto-btn4"></div>
+      
+              </div>
+               <!--Fim Navigation auto-->
+      
+          </div>
+      
+               <!--Manual navigation-->
+          <div class="manual-navigation">
+                  
+              <label for="radio1" class="manual-btn"></label>
+              <label for="radio2" class="manual-btn"></label>
+              <label for="radio3" class="manual-btn"></label>
+              <label for="radio4" class="manual-btn"></label>
+            <!--Fim Manual Navigation-->
+         </div>
+                </div>
+            </div>   
+
+        </div>
+        
+    <!-- FIM DOS SLIDES-->
+    
+  
+
+
+    <!-- Texto para separação de Comidas -->
+<div class="Texto">
+    <a id="TEMAKIS">TEMAKIS</a>
+</div>
+    <!-- Fim do Texto para separação de Comidas -->
+
+
+
+    <!-- CARDAPIOS -->
+
+    <div class="car1">
+    
+                <li>
+                    <img src="temaki.png" />  
+                    <p>Temaki de </p>
+                    <p>Cream Cheese</p>
+
+                </li>
+                <li>
+                    <img src="temakidecamarao.png" />  
+                    <p> Temaki de camarão</p>
+                </li>
+                <li>    
+                    <img src="temakirosa.png" />  
+                    <p> Temaki Salmão Rosa </p>
+                </li>
+            </ul>
+           
+    </div>
+
+    
+    <!-- Texto para separação de Comidas -->
+    <div class="Texto">
+        <a id="SUSHIS">SUSHIS</a>
+        </div> 
+    <!-- Fim do Texto para separação de Comidas -->
+
+
+    <div class="car2">
+    
+                <li>
+                    <img src="sushijoe.png" />  
+                    <p> Sushi Joe</p>
+                </li>
+                <li>
+                    <img src="sushijoerosa.png" />  
+                    <p> Sushi Joe Salmão Rosa </p>
+                </li>
+                <li>    
+                    <img src="sushijoecaviar.png" />  
+                    <p>Sushi Joe Caviar </p>
+                </li>
+            </ul>
+           
+    </div>
+
+    
+    
+    <!-- do Texto para separação de Comidas -->
+    <div class="Texto">
+        <a id="LAMENS">LAMENS</a>
+    </div>
+    <!-- Fim do Texto para separação de Comidas -->
+    
+    
+    <div>
+        <ul class="car3">
+    
+                <li>
+                    <img src="macarraochines.png" />  
+                    <p> Macarrão Chines </p>
+                </li>
+                <li>
+                    <img src="yakisoba.png" />  
+                    <p>  Yakisoba </p>
+                </li>
+                <li>    
+                    <img src="grelhado.png" />  
+                    <p> Grelhado Enoki </p>
+                </li>
+            </ul>
+           
+    </div>
+    <!--FIM DOS CARDAPIOS-->
+
+    <!-- inicio Texto do Local -->
+      <div class="text_Local">
+        <a>
+            Venha nos Conhecer!
+        </a>
+    </div>
+    <!-- Fim Texto do Local -->
+
+<br><br><br><br>
+
+    <!-- inicio das Imagens dos Locais -->
+    
+<div class="nomelocal">
+   <a href="https://goo.gl/maps/aEhLqTXrZ6W4Tydc9" target="_blank"> R. Guaipá, 678 - Vila Leopoldina, São Paulo - SP, 05089-000</a>
+
+<div class="Local_1">
+     
+<img src="Local_1.png">  
+ 
+<img src="Local_2.png">
+
+<img src="Local_3.png">
+</div>
+    </div>
+     <!-- Fim das Imagens dos Locais -->
+      
+<br><br><br><br>
+
+    <!--Inicio Botão do Whatsapp-->
+    <div class="pulsar">
+        <a href="https://wa.me/5511993805708?text=Ol%C3%A1!%20Em%20que%20o%20Nichibotsu%20pode%20ajudar%20hoje?%20" target="_blank">
+            <img src="./whatsapp.png"  alt="phone">         
+            </a>
+    </div>
+    <!--Fim do Botão do Whatsapp-->
+                
+    <!-- Footer -->
+    <footer>
+        <div class="container-footer">
+            <div class="row-footer">
+                <!-- footer col -->
+                
+                <div class="footer-col">
+                    <h2> Empresa </h2>
+                    <ul>
+                        <li> <a href="">Quem Somos</a></li>
+                        <li> <a href="">Nossos Serviços</a></li>
+                        <li> <a href="">Politica de Privacidade</a></li>
+                        <li> <a href="">Programa de afiliados</a></li>
+                    </ul>
+                </div>
+                <!-- end footer col -->
+                     
+                <!-- footer col -->
+                     <div class="footer-col">
+                        <h2> Obter Ajuda </h2>
+                        <ul>
+                            <li> <a href="">FAQ</a></li>
+                            <li> <a href="">Transporte</a></li>
+                            <li> <a href="">Forma de pagamento</a></li>
+                        </ul>
+                    </div>
+                <!-- end footer col -->
+
+                <!-- footer col -->
+                 <div class="footer-col">
+                    <h2> Atendimento ao Cliente  </h2>
+                    <ul>
+                        <li> <a href=""> Fale conosco</a></li>
+                        <li> <a href=""> Restaurantes </a></li>
+                        <li> <a href=""> Está Satisfeito ?</a></li>
+                    </ul>
+                </div>
+                <!-- end footer col -->
+                <div class="medias-sociais">
+                    <a href="https://www.facebook.com/Nichibotsuofc" target="_blank"> <img src="facebook.png"> </a>
+                    
+                    <a href="https://www.instagram.com/nichibotsuofc/" target="_blank"> <img src="instagram.png"> </a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+                    
+        <script src="./script.js"></script>
+</body>
+</html>
